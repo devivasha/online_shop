@@ -1,0 +1,85 @@
+.form-inlinee {
+  display: flex;
+  background-color: #f2f2f2;
+  padding-left: 15px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  width: 100%;
+  height: 119px;
+  margin-top: 74px;
+}
+.newsletter{
+  display: none;
+}
+.div-envelope {
+  display: flex;
+  background-color: white;
+  height: 46px;
+  width: auto;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 14px;
+  padding-top: 9px;
+}
+.fa-envelope {
+  color:#d58e32;
+
+}
+.vertical-line {
+  background-color: #bfbfbf;
+  width: 1px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: 2px;
+  ////float: right;
+}
+input[name="input-password"]{
+  height: 46px;
+  width: 338px;
+  padding-left: 18px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+//.placeholder{
+//
+//}
+input[type="password"]::placeholder {
+  font-family: ﻿AdobeInvisFont, ﻿Poppins-Regular, ﻿Courier, sans-serif;
+  font-size: 14pt;
+  color: rgba(180, 180, 180, 255);
+  text-align: left;
+}
+.submit-button {
+  border: none;
+  outline: none;
+  margin-left: 17px;
+  background-color: white;
+  width: 46px;
+  height: 46px;
+  border-radius: 5px;
+}
+.fa-arrow-right{
+  color: #d58e32;
+}
+
+@media screen and (min-width: 768px){
+  .newsletter{
+    display: block;
+    font-family: ﻿AdobeInvisFont, ﻿Poppins-SemiBold, ﻿Courier, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgba(213, 142, 50, 255);
+    text-align: left;
+    padding-top: 6px;
+    margin-right: 37px;
+    margin-left: 44px;
+  }
+
+}
+@media screen and (min-width: 1200px){
+ .newsletter{
+   margin-left: 200px;
+ }
+}

@@ -1,0 +1,120 @@
+footer {
+  background-color: #363636;
+  width: 100%;
+  height: 560px;
+}
+.footer-links {
+  display: flex;
+  margin-left: 51px;
+}
+.up{
+  padding-top: 61px;
+}
+.down {
+  padding-top: 42px;
+}
+.right-up, .right-down {
+  margin-left: 104px;
+}
+.footer-heading {
+  font-family: ﻿AdobeInvisFont, ﻿Poppins-SemiBold, ﻿Courier, sans-serif;
+  font-size: 16pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+}
+.footer-text, .footer-text-up{
+  font-family: ﻿AdobeInvisFont, ﻿Poppins-Regular, ﻿Courier, sans-serif;
+  font-size: 10pt;
+  text-align: left;
+}
+.footer-text-up{
+  margin-top: 35px;
+}
+.a-link{
+  text-decoration: none;
+  color: rgba(169, 169, 169, 255);
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &:link{
+    color: rgba(169, 169, 169, 255);
+  }
+  &:visited{
+    text-decoration: none;
+    color: rgba(169, 169, 169, 255);
+  }
+  &:active{
+    text-decoration: none;
+    color: rgba(169, 169, 169, 255);
+  }
+}
+.bank-cards{
+  margin-left: 292px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+}
+.bank-kard{
+  width: 40px;
+  height: 28px;
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 530px;
+  }
+  .footer-links {
+    display: flex;
+    margin-left: 141px;
+  }
+  .up{
+    padding-top: 61px;
+  }
+  .down {
+    padding-top: 42px;
+  }
+  .right-up, .right-down {
+    margin-left: 144px;
+  }
+  .footer-heading {
+    font-size: 18pt;
+  }
+  .footer-text, .footer-text-up{
+    font-size: 11pt;
+  }
+  .footer-text-up{
+    margin-top: 35px;
+  }
+  .bank-cards{
+    margin-left: 441px;
+    width: auto;
+  }
+  .bank-kard{
+    margin-left: 10px;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  footer {
+    height: 334px;
+  }
+.footer{
+  display: flex;
+  margin-left: 100px;
+}
+  .footer-links {
+    margin-left: 80px;
+    padding-top: 61px;
+  }
+  .right-up, .right-down {
+    margin-left: 80px;
+  }
+  .bank-cards{
+    margin-left: 904px;
+  }
+}
